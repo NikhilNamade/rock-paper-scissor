@@ -1,0 +1,103 @@
+*{
+ padding: 0;
+ margin: 0;
+}
+nav{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(23, 40, 92);
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav h1{
+    font-size: 5vmin;
+letter-spacing: 1vmin;
+}
+.imgmain{
+    height: 30vh;
+    width:100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    height: 25vh;
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.choice{
+    height: 20vh;
+    width: 20vb;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+}
+.choice:hover{
+    border: 10px solid black;
+}
+
+.score-board{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vmin;
+}
+.mainscore{
+height: 100%;
+width: 40%;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.score{
+    text-align: center;
+    font-size: 3vmin;
+}
+.msg{
+    height: 6vmin;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vmin;
+   
+}
+.mainmsg{
+   padding: 1rem;
+    background-color: rgb(23, 40, 92);
+    border-radius: 5px;
+    color: white;
+   
+}
+.mainreset{
+    height: 4vmin;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.reset{
+    height: 4vmin;
+    width: 15vmin;
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(23, 40, 92);
+    color: white;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+}
